@@ -1,8 +1,6 @@
 package trabalhandoCollections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class ExemploList {
     public static void main(String[] args) {
@@ -103,9 +101,6 @@ Para você: Resolva esses exercícios utilizando os métodos da implementação 
         System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
         System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
 */
-
-    }
-}
 
     }
 }
