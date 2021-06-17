@@ -1,10 +1,12 @@
 package trabalhandoCollections.Set;
 
+
 import java.util.*;
+// Dada uma lista com 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:
 
 public class ExemploSet {
     public static void main(String[] args) {
-// Dada uma lista com 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:
+
         /*  Como Inicializar um Set
         *
         * Set notas = new HashSet(); //antes do java 5
