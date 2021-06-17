@@ -1,4 +1,4 @@
-package trabalhandoCollections;
+package trabalhandoCollections.List;
 
 import java.util.*;
 
@@ -40,8 +40,10 @@ public class ExemploList {
         notas.add(3.6);
         System.out.println(notas.toString());
 
-        System.out.println("Exiba a posição da nota 5.0: " + notas.indexOf(5d));
+        //Localizar o valor e passar a posição
+        System.out.println("Exiba a posição da nota 5.0: " + (notas.indexOf(5d)+1));
 
+        //Adicionar valor em determinada posição
         System.out.println("Adicione na lista a nota 8.0 na posição 4: ");
         notas.add(4, 8d);
         System.out.println(notas);
@@ -51,9 +53,14 @@ public class ExemploList {
         System.out.println(notas);
 
         System.out.println("Confira se a nota 5.0 está na lista: " + notas.contains(5d));
+        /*
+        Imprimir uma nota abaixo da outra
 
-        /*System.out.println("Exiba todas as notas na ordem em que foram informados: ");
-        for (Double nota : notas) System.out.println(nota);*/
+        System.out.println("Exiba todas as notas na ordem em que foram informados: ");
+        for (Double nota : notas){
+            System.out.println(nota);
+        }
+         */
 
         System.out.println("Exiba a terceira nota adicionada: " + notas.get(2));
         System.out.println(notas.toString());
